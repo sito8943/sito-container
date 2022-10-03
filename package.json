@@ -1,22 +1,18 @@
 {
-  "name": "sito-mui-tab-view",
+  "name": "sito-container",
   "main": "dist/App.js",
-  "description": "Component con tabs dinámicas súper flexible",
-  "version": "0.1.1",
+  "description": "Contenedor súper flexible, muy parecido al Box de @mui, pero por defecto es flex",
+  "version": "0.3.5",
   "private": false,
   "dependencies": {
     "@emotion/css": "^11.9.0",
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
-    "@mui/material": "^5.10.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "sito-container": "^0.3.5"
+    "react-scripts": "5.0.1"
   },
   "license": "MIT",
   "author": "SitoNimbus",
-  "repository": "https://github.com/SitoNumbis/sito-mui-tab-view.git",
+  "repository": "https://github.com/SitoNumbis/sito-container.git",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -45,8 +41,7 @@
   "keywords": [
     "container",
     "react",
-    "@emotion",
-    "tab"
+    "@emotion"
   ],
   "devDependencies": {
     "@babel/cli": "^7.17.6",
