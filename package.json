@@ -2,7 +2,7 @@
   "name": "sito-container",
   "main": "dist/App.js",
   "description": "Contenedor súper flexible, muy parecido al Box de @mui, pero por defecto es flex",
-  "version": "0.3.5",
+  "version": "0.4.1",
   "private": false,
   "dependencies": {
     "@emotion/css": "^11.9.0",
@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish:npm": "babel src/ -d dist --copy-files"
+    "publish:npm": "babel src/ -d dist --copy-files",
+    "build:min": "BABEL_ENV=minify babel src/ -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +46,7 @@
   ],
   "devDependencies": {
     "@babel/cli": "^7.17.6",
-    "@babel/preset-react": "^7.16.7"
+    "@babel/preset-react": "^7.16.7",
+    "babel-preset-minify": "^0.5.2"
   }
 }
